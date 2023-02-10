@@ -5,7 +5,7 @@ class BipolarPolarizationParams {
   int delimiter, negative, positive;
   @override
   String toString(){
-    return "{delimiter: ${delimiter.toRadixString(16)} negative: ${negative.toRadixString(16)} positive: ${positive.toRadixString(16)}}";
+    return "{delimiter: ${delimiter.toRadixString(16)} negative: ${negative.toRadixString(16)}  positive: ${positive.toRadixString(16)}}";
   }
   BipolarPolarizationParams({required int this.delimiter, required int this.negative,  required int this.positive});
 }
